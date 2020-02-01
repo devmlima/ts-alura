@@ -1,4 +1,3 @@
-namespace Views {
     export abstract class View<T> {
     
         protected _elemento: JQuery;
@@ -13,5 +12,3 @@ namespace Views {
     
         abstract template(model: T): string;
     }
-
-}
