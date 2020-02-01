@@ -1,3 +1,3 @@
-const negociacao = new Negociacao(new Date, 1, 100);
+const controller = new NegociacaoController();
 
-console.log(negociacao.quantidade)
+$('.form').submit(controller.adiciona.bind(controller));
